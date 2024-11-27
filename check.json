@@ -1,0 +1,75 @@
+{
+    "signature": "22mds8jL8DVQD9fAigPSBheLcf6PR7eYnnLQTJxsaims5sBeh737EU1btjbcaWAgpH9MzmXGJky1z1kTc5KAtUJa",
+    "mint": "2gCAdmfrfqi7Wemtx3iYim9S7Y33vfHR7toLKVS6pump", 
+    "traderPublicKey": "6mq8wUz3zSsteATZxtjifGpEUmq5KjvrsQzAjLiZEqYy", 
+    "txType": "buy",
+    "tokenAmount": 877461.926536, 
+    "newTokenBalance": 877461.926536, 
+    "bondingCurveKey": "7kKLy8SaXwv3SGHkqsnW3ibzwhPGmbF5sSGpZrYYNUW2", 
+    "vTokensInBondingCurve": 839881254.663569, 
+    "vSolInBondingCurve": 38.32684658844344, 
+    "marketCapSol": 45.63364925175763
+}
+
+
+tokenbalance: 877461.926536
+percentage: 10%
+total_token: 8774619.26536
+
+
+{
+    "signature": "5xtDUryZepcsbph39pCcg7xw5djzcZnLwjkZ4FpghpbRVasVy5shWceUrFAFxr5u5EeBkAPv658YZcSEZduhJFVP",
+    "mint": "EgYV1s294jJb4VKnruV4EmpDRNtVX3WG98s5nyDopump",
+    "traderPublicKey": "B3QXxeU8DMJqyQ348QL8HJr7R2QHLbLXaVqncSu4g5qK",
+    "txType": "buy",
+    "tokenAmount": 223591.326955,
+    "newTokenBalance": 223591.326955,
+    "bondingCurveKey": "39pNuKy3KCxES2ES1dr2KkshGRc9cQogsr8QhjoR9wba",
+    "vTokensInBondingCurve": 848263431.63985,
+    "vSolInBondingCurve": 37.9481170581299,
+    "marketCapSol": 44.73624070386858
+}
+{
+    "signature": "F5gGyzEif3vbE32Czka27qYT5pWZViLh4DiQ2pMfqRSP5umouGBpfW4NZQ7WRdCq3fFa6zM1X8E2xwfVqQEK5ih",
+    "mint": "EgYV1s294jJb4VKnruV4EmpDRNtVX3WG98s5nyDopump",
+    "traderPublicKey": "BMej5oLo8wN7trp8H6aGbY7qyxBNnq3tX9JjDuomzQtH",
+    "txType": "buy",
+    "tokenAmount": 44257.107343,
+    "newTokenBalance": 44257.107343,
+    "bondingCurveKey": "39pNuKy3KCxES2ES1dr2KkshGRc9cQogsr8QhjoR9wba",
+    "vTokensInBondingCurve": 848219174.532507,
+    "vSolInBondingCurve": 37.95009705804093,
+    "marketCapSol": 44.74090918654014}
+{   
+    "signature": "2NKAaSBnpnV7wr3Gc8CZwwsPZjuVmBjxiWavhMqbPhewqbH7Qv8bu7a5h3hEY88HG43uZGq6KSHcR3J8GSeHuRji",
+    "mint": "EgYV1s294jJb4VKnruV4EmpDRNtVX3WG98s5nyDopump",
+    "traderPublicKey": "CCcsnhptHN9ccYsro4annbBVME8X5HduLiRFAXpMFrj8",
+    "txType": "sell",
+    "tokenAmount": 2281954.028391,
+    "newTokenBalance": 0,
+    "bondingCurveKey": "39pNuKy3KCxES2ES1dr2KkshGRc9cQogsr8QhjoR9wba",
+    "vTokensInBondingCurve": 850501128.560898,
+    "vSolInBondingCurve": 37.84827429267205,
+    "marketCapSol": 44.5011452914986
+}
+// {   
+//     "signature": "3Gigwmfpor13thz6XP3wjBLhhLiWjJ8jR8LXcXAb4evRYtufbM5ygrGSWr41PLQGuv8HRYCDMuHfcFC8tMLSSnJ9",
+//     "mint": "XJLPQC7hLqRq2WYtTCmnb7HdsepRfg4uVHpZLWdmJAK",
+//     "traderPublicKey": "BGw2K9tdotF4wcctNAfh1j6fd6NmRuhT9VYSMkb3XuW",
+//     "txType": "sell",
+//     "tokenAmount": 11674579,
+//     "newTokenBalance": 0.58315,
+//     "bondingCurveKey": "2A2wgrbVMx6th24GX6KfyAUn1E2z1SB4QfSgte2sWtsb",
+//     "vTokensInBondingCurve": 1072999997.101441,
+//     "vSolInBondingCurve": 30.000000081040792,
+//     "marketCapSol": 27.958993627289452
+// }
+
+
+
+trx_id : data["signature"]
+trx_type : data["txType"]
+trader_id : data["traderPublicKey"]
+trader_token_balance : data["newTokenBalance"]
+bonding_curve_key : data["bondingCurveKey"]
+bonding_curve_token_balance : data["vTokensInBondingCurve"]

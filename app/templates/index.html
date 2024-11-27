@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe Themed Web App</title>
+    <!-- Link to the CSS file in the static/css directory -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Token Universe</h1>
+    <p>Start anywhere!</p>
+
+    <!-- Shooting stars for effect -->
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+    <div class="shooting-star"></div>
+
+    <script>
+        // Redirect to another HTML file on mouse click
+        document.body.addEventListener('click', function() {
+            window.location.href = "{{ url_for('dash') }}"; // Redirect to another_page.html
+        });
+    </script>
+</body>
+</html>
